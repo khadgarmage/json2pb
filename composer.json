@@ -1,0 +1,28 @@
+{
+    "name": "khadgarmage/jsonpb",
+    "description": "A library to convert between json and pb.",
+    "keywords": ["json", "pb"],
+    "homepage": "https://github.com/khadgarmage/jsonpb",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "khadgarmage",
+            "email": "khadgarmage@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "json-schema/JSON-Schema-Test-Suite": "1.2.0",
+        "phpunit/phpunit": "^4.8.22",
+        "phpdocumentor/phpdocumentor": "~2"
+    },
+    "autoload": {
+        "psr-4": { "JsonPb\\": "src/JsonPb/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "JsonPb\\Tests\\": "tests/" }
+    },
+}
